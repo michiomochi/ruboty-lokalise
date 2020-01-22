@@ -1,0 +1,62 @@
+Layout/LineLength:
+  Enabled: false
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented_relative_to_receiver
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Layout/HashAlignment:
+  Enabled: false
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/Lambda:
+  Enabled: false
+
+Style/SymbolArray:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Style/EmptyMethod:
+  Enabled: false
+
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
+
+Style/AccessModifierDeclarations:
+  EnforcedStyle: inline
+
+Style/FormatString:
+  Enabled: false
+
+Style/MultilineBlockChain:
+  Enabled: false
+
+Naming/PredicateName:
+  Enabled: false
+
+Style/PercentLiteralDelimiters:
+  Enabled: false
