@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require "ruby-lokalise-api"
-
 module Ruboty
   module Handlers
     class Lokalise < Base

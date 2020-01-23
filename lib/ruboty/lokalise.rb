@@ -1,10 +1,7 @@
 # frozen_string_literal: true
 
-require "ruboty/lokalise/version"
+require "ruby-lokalise-api"
 
-module Ruboty
-  module Lokalise
-    class Error < StandardError; end
-    # Your code goes here...
-  end
-end
+require "ruboty"
+require "ruboty/lokalise/version"
+require "ruboty/handlers/lokalise"
