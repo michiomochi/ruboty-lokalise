@@ -40,7 +40,7 @@ module Ruboty
       end
 
       private def client
-        @client ||= Lokalise.client(ENV["LOKALISE_ACCESS_TOKEN"])
+        @client ||= ::Lokalise.client(ENV["LOKALISE_ACCESS_TOKEN"])
       end
 
       private def project_find_by_name(name:)
