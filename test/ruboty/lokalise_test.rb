@@ -2,12 +2,14 @@
 
 require "test_helper"
 
-class Ruboty::LokaliseTest < Minitest::Test
-  def test_that_it_has_a_version_number
-    refute_nil ::Ruboty::Lokalise::VERSION
-  end
+module Ruboty
+  class LokaliseTest < Minitest::Test
+    def test_that_it_has_a_version_number
+      refute_nil ::Ruboty::Lokalise::VERSION
+    end
 
-  def test_it_does_something_useful
-    assert false
+    def test_it_does_something_useful
+      assert false
+    end
   end
 end

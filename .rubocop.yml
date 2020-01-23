@@ -60,3 +60,9 @@ Naming/PredicateName:
 
 Style/PercentLiteralDelimiters:
   Enabled: false
+
+Style/NumericPredicate:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
