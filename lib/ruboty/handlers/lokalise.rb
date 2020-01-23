@@ -9,7 +9,7 @@ module Ruboty
         description: "Show translation stats for specified project",
       )
 
-      def stats(message)
+      def translation_stats(message)
         project_name = message[:project_name]
         language_iso_list = message[:language_iso_list].split(",")
         project = project_find_by_name(name: project_name)
